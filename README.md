@@ -1,2 +1,0 @@
-# Sass_RWD
-Exercises

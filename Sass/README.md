@@ -30,7 +30,7 @@
 
 	Ustaw na elementach listy z poprzedniego zadania, pseudo-klasę hover i ustaw w niej kolor tekstu na czerwony. Dla pierwszego elementu listy ustaw kolor pomarańczowy.
 
-7. **Selektor rodzica & - jeszcze raz :smile: **
+7. **Selektor rodzica & - jeszcze raz ** :smile:
 
 	Utwórz toolbar z nawigacją, tak by jej elementy wyświetlały się obok siebie i były wyrównane do lewej. Po najechaniu kursorem powinien zmienić się ich kolor lub tło. Toolbar powinien powinien mieć klasę .nav-toolbar, a odnośniki klasę .nav-item. Spraw też aby ostatni element był wyrównany do prawej.
 
@@ -49,8 +49,12 @@
 	Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
 
 	Przykład:
+	
 	```<div class="block_1"><div>```
+
 	```<div class="block_2"><div>```
+
 	```<div class="block_3"><div>```
+
 	```<div class="block_4"><div>```
 

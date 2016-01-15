@@ -30,7 +30,7 @@
 
 	Ustaw na elementach listy z poprzedniego zadania, pseudo-klasę hover i ustaw w niej kolor tekstu na czerwony. Dla pierwszego elementu listy ustaw kolor pomarańczowy.
 
-7. **Selektor rodzica &**
+7. **Selektor rodzica & - jeszcze raz :smile: **
 
 	Utwórz toolbar z nawigacją, tak by jej elementy wyświetlały się obok siebie i były wyrównane do lewej. Po najechaniu kursorem powinien zmienić się ich kolor lub tło. Toolbar powinien powinien mieć klasę .nav-toolbar, a odnośniki klasę .nav-item. Spraw też aby ostatni element był wyrównany do prawej.
 
@@ -39,22 +39,18 @@
 	Dodaj do elementów listy zaokrąglone obramowanie używając „vendor prefixes” (-webkit, -moz). Napisz i wykorzystaj do tego mixin z argumentem, którym będzie wielkość zaokrąglenia. Pamiętaj o odpowiednim zagnieżdżeniu elementów. 
 	Sprawdź czy border-radius potrzebuje jeszcze prefixów [Can I use - border-radius](http://caniuse.com/#search=border-radius)
 
+9. **Zorganizuj pliki Sass-owe według schematu poniżej**: (jeśli nie potrzebujesz, któregoś z plików bądź katalogów nie twórz go):
+
+	Przeglądarka powinna wysłać tylko jedno zapytanie do serwera dotyczące plików CSS.
 
 
+10. **Logika i interpolacja**
 
+	Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	Przykład:
+	```<div class="block_1"><div>```
+	```<div class="block_2"><div>```
+	```<div class="block_3"><div>```
+	```<div class="block_4"><div>```
 

@@ -30,7 +30,7 @@
 
 	Ustaw na elementach listy z poprzedniego zadania, pseudo-klasę hover i ustaw w niej kolor tekstu na czerwony. Dla pierwszego elementu listy ustaw kolor pomarańczowy.
 
-7. **Selektor rodzica & - jeszcze raz ** :smile:
+7. **Selektor rodzica & - jeszcze raz** :smile:
 
 	Utwórz toolbar z nawigacją, tak by jej elementy wyświetlały się obok siebie i były wyrównane do lewej. Po najechaniu kursorem powinien zmienić się ich kolor lub tło. Toolbar powinien powinien mieć klasę .nav-toolbar, a odnośniki klasę .nav-item. Spraw też aby ostatni element był wyrównany do prawej.
 
@@ -49,7 +49,7 @@
 	Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
 
 	Przykład:
-	
+
 	```<div class="block_1"><div>```
 
 	```<div class="block_2"><div>```
@@ -57,4 +57,48 @@
 	```<div class="block_3"><div>```
 
 	```<div class="block_4"><div>```
+
+11. **Placeholder**
+
+	Stwórz 3 boksy, które reprezentują: sukces, error i info. 
+
+	![Placeholder](images/placeholder.jpg)
+
+	Ostyluj je za pomocą Sass. Spróbuj wykorzystać w tym zadaniu placeholder, aby nie generować dodatkowej reguły w css. Niech Twój kod HTML wygląda w następujący sposób:
+
+	```<div class="success"> succes </div>```
+
+	```<div class="error"> error </div>```
+
+	```<div class="info"> info </div>```
+
+12. **Mapy**
+
+	Stwórz mapę z 5 wybranymi kolorami. Wykorzystaj ją, aby ustawić kolor tła dla zadania z okienkami (success, error, info).
+
+
+13. **Operacje matematyczne i na kolorach, funkcje**
+
+	Wstaw na stronie kilka nagłówków, np. od ```<h1>``` do ```<h4>```. Zapisz za pomocą zmiennej wysokość linii i podstawowy rozmiar tekstu, a następnie zastosuj dla całego dokumentu.
+
+	Dla rozmiaru nagłówków zastosuj skalę modularną na podstawie zdefiniowanego rozmiaru tekstu z mnożnikiem 1,3 pamiętając o ich hierarchii (h1 powinien być największy). Pamiętaj o nadaniu dla każdego nagłówka odpowiedniej wysokości linii, tak, aby była wielokrotnością tej zdefiniowanej dla całego dokumentu.
+
+	Ustaw kolory nagłówków tak by każdy kolejny był jaśniejszy od poprzedniego o 15%.
+	
+	Użyj funkcji do obliczania rozmiaru nagłówka.
+
+14. **Media queries**
+
+	Napisz mixin, który pozwoli na zmianę układu wcześniej stworzonej nawigacji, tak by na ekranach mniejszych niż 500 pikseli odnośniki wyświetlały się jeden pod drugim.
+
+	Zapisz 500px jako zmienną tak, aby można było ją łatwo dopasować do innych ekranów lub utworzyć nowe punkty graniczne, jeśli zajdzie taka potrzeba.
+
+	Pamiętaj przy tym o komentarzach dla innych developerów, którzy mogą w przyszłości pracować z Twoim kodem. Dla optymalizacji, wstawiaj komentarze dotyczące SASS w taki sposób żeby nie były widoczne w wynikowym pliku CSS.
+
+
+
+
+
+
+
 

@@ -24,6 +24,12 @@
 
 	Utwórz na Twojej stronie sekcję nawigacyjną z odnośnikami. Spraw, by nie była domyślnie wyświetlana na ekranie smartfona, a w momencie kiedy jest ukryta widoczny był element z treścią „Menu”, który jeśli zostanie kliknięty pokazuje i ukrywa nawigację. Pamiętaj, aby skrypt był wykonywany tylko jeśli użytkownik odwiedza stronę na smartfonie (metoda matchMedia).
 
-6. Flexbox
+6. **Flexbox layout**
 
 	Używając flexbox przygotuj układ strony "The Holy Grail".
+
+7 **Flexbox elementy**
+	Używająć flexboxa ustaw 6 kółek w następujący sposób:
+	![Flexbox](images/flex1.jpg)
+
+	Ustaw kółka w taki sposób, aby przy mniejszej szerokości ekranu, automatycznie spadały pod siebie.

@@ -35,3 +35,5 @@
 	![Flexbox](images/flex1.jpg)
 
 	Ustaw kółka w taki sposób, aby przy mniejszej szerokości ekranu, automatycznie spadały pod siebie.
+	Przykład wyżej pokazuje, że jedno kólko się nie mieści w vieporcie i dlatego spada w dół. 
+	Stwórz mixin dla prefixów flexboxa.

@@ -42,7 +42,39 @@
 
 	Dodaj do elementów listy zaokrąglone obramowanie używając „vendor prefixes” (-webkit, -moz). Napisz i wykorzystaj do tego mixin z argumentem, którym będzie wielkość zaokrąglenia. Pamiętaj o odpowiednim zagnieżdżeniu elementów. 
 	Sprawdź czy border-radius potrzebuje jeszcze prefixów [Can I use - border-radius](http://caniuse.com/#search=border-radius)
-10. **Logika i interpolacja**
+	
+10. **Placeholder**
+
+	Stwórz 3 boksy, które reprezentują: sukces, error i info. 
+
+	![Placeholder](images/placeholder.jpg)
+
+	Ostyluj je za pomocą Sass. Spróbuj wykorzystać w tym zadaniu placeholder, aby nie generować dodatkowej reguły w css. Niech Twój kod HTML wygląda w następujący sposób:
+
+	```<div class="success"> succes </div>```
+
+	```<div class="error"> error </div>```
+
+	```<div class="info"> info </div>```
+	
+
+11. **Operacje matematyczne i na kolorach, funkcje**
+
+	Wstaw na stronie kilka nagłówków, np. od ```<h1>``` do ```<h4>```. Zapisz za pomocą zmiennej wysokość linii i podstawowy rozmiar tekstu, a następnie zastosuj dla całego dokumentu.
+
+	Dla rozmiaru nagłówków zastosuj skalę modularną na podstawie zdefiniowanego rozmiaru tekstu z mnożnikiem 1,3 pamiętając o ich hierarchii (h1 powinien być największy). Pamiętaj o nadaniu dla każdego nagłówka odpowiedniej wysokości linii, tak, aby była wielokrotnością tej zdefiniowanej dla całego dokumentu.
+
+	Ustaw kolory nagłówków tak by każdy kolejny był jaśniejszy od poprzedniego o 15%.
+	
+	Użyj funkcji do obliczania rozmiaru nagłówka.
+	
+	
+
+12. **Mapy**
+
+	Stwórz mapę z 5 wybranymi kolorami. Wykorzystaj ją, aby ustawić kolor tła dla zadania z okienkami (success, error, info).
+	
+13. **Logika i interpolacja**
 
 	Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
 
@@ -56,34 +88,7 @@
 
 	```<div class="block_4"><div>```
 
-11. **Placeholder**
 
-	Stwórz 3 boksy, które reprezentują: sukces, error i info. 
-
-	![Placeholder](images/placeholder.jpg)
-
-	Ostyluj je za pomocą Sass. Spróbuj wykorzystać w tym zadaniu placeholder, aby nie generować dodatkowej reguły w css. Niech Twój kod HTML wygląda w następujący sposób:
-
-	```<div class="success"> succes </div>```
-
-	```<div class="error"> error </div>```
-
-	```<div class="info"> info </div>```
-
-12. **Mapy**
-
-	Stwórz mapę z 5 wybranymi kolorami. Wykorzystaj ją, aby ustawić kolor tła dla zadania z okienkami (success, error, info).
-
-
-13. **Operacje matematyczne i na kolorach, funkcje**
-
-	Wstaw na stronie kilka nagłówków, np. od ```<h1>``` do ```<h4>```. Zapisz za pomocą zmiennej wysokość linii i podstawowy rozmiar tekstu, a następnie zastosuj dla całego dokumentu.
-
-	Dla rozmiaru nagłówków zastosuj skalę modularną na podstawie zdefiniowanego rozmiaru tekstu z mnożnikiem 1,3 pamiętając o ich hierarchii (h1 powinien być największy). Pamiętaj o nadaniu dla każdego nagłówka odpowiedniej wysokości linii, tak, aby była wielokrotnością tej zdefiniowanej dla całego dokumentu.
-
-	Ustaw kolory nagłówków tak by każdy kolejny był jaśniejszy od poprzedniego o 15%.
-	
-	Użyj funkcji do obliczania rozmiaru nagłówka.
 
 14. **Media queries**
 

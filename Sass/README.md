@@ -34,16 +34,14 @@
 
 	Utwórz toolbar z nawigacją, tak by jej elementy wyświetlały się obok siebie i były wyrównane do lewej. Po najechaniu kursorem powinien zmienić się ich kolor lub tło. Toolbar powinien powinien mieć klasę .nav-toolbar, a odnośniki klasę .nav-item. Spraw też aby ostatni element był wyrównany do prawej.
 
-8. **Zastąp prefiksy przeglądarek używając mixin**
-
-	Dodaj do elementów listy zaokrąglone obramowanie używając „vendor prefixes” (-webkit, -moz). Napisz i wykorzystaj do tego mixin z argumentem, którym będzie wielkość zaokrąglenia. Pamiętaj o odpowiednim zagnieżdżeniu elementów. 
-	Sprawdź czy border-radius potrzebuje jeszcze prefixów [Can I use - border-radius](http://caniuse.com/#search=border-radius)
-
-9. **Zorganizuj pliki Sass-owe według schematu prezentacji**: (jeśli nie potrzebujesz, któregoś z plików bądź katalogów nie twórz go):
+8. **Zorganizuj pliki Sass-owe według schematu prezentacji**: (jeśli nie potrzebujesz, któregoś z plików bądź katalogów nie twórz go):
 
 	Przeglądarka powinna wysłać tylko jedno zapytanie do serwera dotyczące plików CSS.
 
+9. **Zastąp prefiksy przeglądarek używając mixin**
 
+	Dodaj do elementów listy zaokrąglone obramowanie używając „vendor prefixes” (-webkit, -moz). Napisz i wykorzystaj do tego mixin z argumentem, którym będzie wielkość zaokrąglenia. Pamiętaj o odpowiednim zagnieżdżeniu elementów. 
+	Sprawdź czy border-radius potrzebuje jeszcze prefixów [Can I use - border-radius](http://caniuse.com/#search=border-radius)
 10. **Logika i interpolacja**
 
 	Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.

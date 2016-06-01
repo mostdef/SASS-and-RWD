@@ -81,7 +81,7 @@
 	```<div class="info"> info </div>```
 
 
-14. **Interpolacja i pętle**
+14. **Interpolacja i logika**
 
 	Wstaw na stronie kilka nagłówków, np. od ```<h1>``` do ```<h4>```. Zapisz za pomocą zmiennej wysokość linii i podstawowy rozmiar tekstu, a następnie zastosuj dla całego dokumentu.
 
@@ -93,17 +93,8 @@
 
 15. **Interpolacja i logika**
 
-Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
-
-Przykład:
-
-		```<div class="block_1"><div>```
-
-		```<div class="block_2"><div>```
-
-		```<div class="block_3"><div>```
-
-		```<div class="block_4"><div>```
+	Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
+	Określ im klasy od block_1 do block_10. Wykorzystaj pętle.
 
 16. **Mapy**
 

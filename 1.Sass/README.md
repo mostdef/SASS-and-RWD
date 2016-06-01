@@ -74,11 +74,11 @@
 
 	Ostyluj je za pomocą Sass. Spróbuj wykorzystać w tym zadaniu placeholder, aby nie generować dodatkowej reguły w CSS. Niech Twój kod HTML wygląda w następujący sposób:
 
-	<div class="success"> succes </div>
+	```<div class="success"> succes </div>```
 
-	<div class="error"> error </div>
+	```<div class="error"> error </div>```
 
-	<div class="info"> info </div>
+	```<div class="info"> info </div>```
 
 
 14. **Interpolacja i pętle**
@@ -93,18 +93,17 @@
 
 15. **Interpolacja i logika**
 
+Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
 
-		Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
+Przykład:
 
-		Przykład:
+		```<div class="block_1"><div>```
 
-		<div class="block_1"><div>
+		```<div class="block_2"><div>```
 
-		<div class="block_2"><div>
+		```<div class="block_3"><div>```
 
-		<div class="block_3"><div>
-
-		<div class="block_4"><div>
+		```<div class="block_4"><div>```
 
 16. **Mapy**
 

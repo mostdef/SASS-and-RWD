@@ -6,7 +6,7 @@
 	* Następnie, utwórz katalog o nazwie scss, a w nim plik style.scss.  W pliku określ kolor dla nagłówka oraz kolor tła całej strony. Najlepiej tak, aby nagłówek był czytelny.
 	* W pliku index.html wczytaj **wygenerowany arkusz styli z odpowiednim rozszerzeniem.**
 	* Skompiluj plik sass w znany Ci sposób (np. za pomocą gulpa), sprawdź czy wygenerował się odpowiedni katalog z plikiem css.
-	* Odśwież stronę w przeglądarce, cz.
+	* Odśwież stronę w przeglądarce.
 	* Zmień teraz kolor nagłówka w pliku Sass i sprawdź jeszcze raz.
 
 2. **Nadpisywanie zmian**
@@ -23,7 +23,7 @@
 
 5. **Komentarze**
 
-	Dodaj oba rodzaje komentarzy do pliku scss i sprawdź, które są kompilowane do css, a które nie.
+	Dodaj oba rodzaje komentarzy do pliku SCSS i sprawdź, które są kompilowane do CSS, a które nie.
 
 6. **Zmienne**
 
@@ -37,6 +37,8 @@
 	* Ustaw border dla elementu ```header```. Skorzystaj z kolorów, które zdefiniowałeś.
 	* Ostyluj element ```main-width```. Szerokość strony ustaw na 1000px i wstaw do zmiennej.
 
+	Pamiętaj o rozsądnym zagieżdżaniu.
+
 8. **Selektor rodzica &**
 
 	Stwórz w jednej z sekcji listę z linkami do 3 ulubionych stron. Spraw, aby:
@@ -47,7 +49,7 @@
 9. **Selektor rodzica & - jeszcze raz** :smile:
 
 	Listę z nawigacją, która znajduje się w stopce ostyluj, tak aby jej elementy wyświetlały się obok siebie i były wyrównane do lewej.
-	Po najechaniu kursorem na element listy, powinien zmienić się jej kolor lub tło. Spraw też aby ostatni element był wyrównany do prawej.
+	Po najechaniu kursorem na element listy, powinien zmienić się jej kolor lub tło. Spraw też, aby ostatni element był wyrównany do prawej.
 
 10. **Zorganizuj pliki Sass-owe według schematu prezentacji**: (jeśli nie potrzebujesz, któregoś z plików bądź katalogów nie twórz go):
 
@@ -70,13 +72,13 @@
 
 	![Placeholder](images/placeholder.jpg)
 
-	Ostyluj je za pomocą Sass. Spróbuj wykorzystać w tym zadaniu placeholder, aby nie generować dodatkowej reguły w css. Niech Twój kod HTML wygląda w następujący sposób:
+	Ostyluj je za pomocą Sass. Spróbuj wykorzystać w tym zadaniu placeholder, aby nie generować dodatkowej reguły w CSS. Niech Twój kod HTML wygląda w następujący sposób:
 
-	```<div class="success"> succes </div>```
+	<div class="success"> succes </div>
 
-	```<div class="error"> error </div>```
+	<div class="error"> error </div>
 
-	```<div class="info"> info </div> ```
+	<div class="info"> info </div>
 
 
 14. **Interpolacja i pętle**
@@ -84,25 +86,25 @@
 	Wstaw na stronie kilka nagłówków, np. od ```<h1>``` do ```<h4>```. Zapisz za pomocą zmiennej wysokość linii i podstawowy rozmiar tekstu, a następnie zastosuj dla całego dokumentu.
 
 	Ostyluj nagłówki w taki sposób, aby na podstawie zdefiniowanego rozmiaru tekstu zmieniała się ich wielkość. Wykorzystaj pętle i interpolację.
+	Użyj funkcji do obliczania rozmiaru nagłówka z mnożnikiem 1,3 pamiętaj o ich hierarchii (h1 powinien być największy).
 
-	Ustaw kolory nagłówków tak by każdy kolejny był jaśniejszy od poprzedniego o 15%.
-
-	Użyj funkcji do obliczania rozmiaru nagłówka z mnożnikiem 1,3 pamiętaj i ich hierarchii (h1 powinien być największy).
+	Ustaw kolory nagłówków tak, by każdy kolejny był jaśniejszy od poprzedniego o 15%.
 
 
 15. **Interpolacja i logika**
+
 
 		Za pomocą pętli określ kolor obramowania dla 10 kontenerów. Niech kolor będzie pomarańczowy dla parzystych kontenerów, a niebieski dla nieparzystych.
 
 		Przykład:
 
-		```<div class="block_1"><div>```
+		<div class="block_1"><div>
 
-		```<div class="block_2"><div>```
+		<div class="block_2"><div>
 
-		```<div class="block_3"><div>```
+		<div class="block_3"><div>
 
-		```<div class="block_4"><div>```
+		<div class="block_4"><div>
 
 16. **Mapy**
 

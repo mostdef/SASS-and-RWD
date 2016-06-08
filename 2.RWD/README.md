@@ -2,9 +2,9 @@
 
 1. **Ustaw viewport**
 
-	Ustaw viewport dla Twojej strony tak aby zawsze był taki jak szerokość urządzenia, a domyślne powiększenie miało wartość 1. Napisz w komenatrzu swoje spostrzeżenia.
+	Ustaw viewport dla Twojej strony tak, aby zawsze był taki jak szerokość urządzenia, a domyślne powiększenie miało wartość 1. Napisz w komenatrzu swoje spostrzeżenia.
 	Zmień wartość atrybutu content - width na 500, a nastepnie na 100 i napisz w komentarzu swoje spostrzeżenia
-	co się zmieniło itp.
+	np. co się zmieniło itp.
 
 2. **Media Query**
 

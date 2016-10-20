@@ -44,13 +44,25 @@ Użyj flexboksa do następującego ustawienia sześciu kółek:
 
 Kółka przy mniejszej szerokości ekranu powinny automatycznie spadać pod siebie. Przykład wyżej pokazuje, że jedno kółko się nie mieści w viewporcie i dlatego spada w dół. Stwórz mixin dla prefiksów flexboksa.
 
-## Zadanie 9. Warunkowe wykonanie skryptu
+## Zadanie 9. Flexbox &ndash; kolejność elementów
+Użyj flexboksa do odwzorowania następującego layoutu:
+
+![order](images/flex-layout-fullscreen.jpg)
+
+Następnie dodaj breakpointy które usprawią że na telefonie (do 420px) widok będzie taki:
+
+![order](images/flex-layout-mobile.jpg)
+
+Zwróć uwagę na kolejność elementów w wersji na telefon.
+
+
+## Zadanie 10. Warunkowe wykonanie skryptu
 Utwórz na swojej stronie sekcję nawigacyjną z odnośnikami. Spraw, by nie była domyślnie wyświetlana na ekranie smartfona.
 Gdy sekcja nawigacyjna jest ukryta, ma być widoczny element z treścią menu, który po kliknięciu pokazuje i ukrywa nawigację.
 Możliwa jest sytuacja, w której użytkownik małego ekranu przy widocznym menu rozszerza przeglądarkę. Wtedy menu powinno zniknąć i pokazać się lista z menu.
 Pamiętaj, aby skrypt był wykonywany, tylko gdy użytkownik odwiedza stronę na smartfonie.
 
-## Zadanie 10. Wstawianie obrazów
+## Zadanie 11. Wstawianie obrazów
 Na swoją stronę wstaw obrazy następująco:
 * przez tag **img**,
 * jako tło elementu **div**.

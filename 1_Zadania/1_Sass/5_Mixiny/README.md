@@ -5,7 +5,15 @@
 -------------------------------------------------------------------------------
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Mixin
-Zastosuj mixiny do zastąpienia prefiksów przeglądarek.
-Dodaj do elementów listy zaokrąglone obramowanie, użyj vendor prefixes (-webkit, -moz). Napisz i wykorzystaj do tego mixin z argumentem, którym będzie wielkość zaokrąglenia. Pamiętaj o odpowiednim zagnieżdżeniu elementów.
-Sprawdź, czy **border-radius** potrzebuje jeszcze prefixów [Can I use / border-radius](http://caniuse.com/#search=border-radius).
+### Zadanie 1. Mixin border  (~ 5min - 10min)
+Stwórz mixin, który na podstawie przekazanego do niego parametru - `$color` - ustawi obramowanie w nastepujący sposób:
+* górna kreska  - `1px solid $color`
+* prawa kreska - `1px solid lighten($color, 20%)`
+* lewa kreska - `2px dashed darken($color, 20%)`
+* dolna kreska - `0`
+dodatkowo ustawi również border-radius na 5px.
+Dodaj mixin dla elementu `header` (plik `index.html`)
+
+### Zadanie 2. Mixin arrow  (~ 5min - 10min)
+Stwórz mixin, który na podstawie przekazanego do niego parametru - `$direction` - stworzy strzałkę, zwróconą we wskazanym przez zmienną `$direction` kierunku, np. wywołanie arrow(top), stworzy strzałke skierowaną do góry.
+Strzałkę zrób za pomocą CSS, jeśli nie wiesz jak spróbuj znaleźć w Google.

@@ -15,5 +15,5 @@
 * Zmień kolor nagłówka w pliku **scss** i ponownie odśwież stronę.
 
 
-### Zadanie 2. Nadpisywanie zmian
+### Zadanie 2. Nadpisywanie zmian (~ 2min - 5min)
 Bezpośrednio w wygenerowanym pliku **css** zmień kolor nagłówka i wprowadź dodatkową właściwość, np. margines. Sprawdź zmiany w przeglądarce. Przejdź do pliku **scss** i wprowadź dowolną zmianę inną od tej wprowadzonej w pliku **css**, np. padding. Zapisz plik i sprawdź rezultat zarówno w wynikowym pliku **css**, jak i w przeglądarce. Co się zmieniło?

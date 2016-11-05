@@ -6,7 +6,7 @@
 ## Zadania do samodzielnego wykonania
 
 
-### Zadanie 1. Organizacja projektu
+### Zadanie 1. Organizacja projektu  (~ 10min - 15min)
 Zorganizuj pliki Sass według schematu:
 
 ```

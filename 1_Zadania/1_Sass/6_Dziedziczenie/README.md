@@ -5,13 +5,13 @@
 -------------------------------------------------------------------------------
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Dziedziczenie
+### Zadanie 1. Dziedziczenie  (~ 5min - 10min)
 W prezentacji rozmawialiśmy o problemach związanych z extend. Omawialiśmy następujące problemy:
 * z niezamierzonymi stylami, każda **klasa** ```error``` była podkreślana i zmieniała kolor przy najeżdżaniu kursorem,
 * z niezamierzonymi i zbędnymi selektorami.
 Spróbuj naprawić oba te problemy.
 
-### Zadanie 2. Placeholder
+### Zadanie 2. Placeholder (~ 10min - 15min)
 Stwórz w jednej z sekcji trzy boksy reprezentujące: success, error i info.
 
 ![Placeholder](images/placeholder.jpg)

@@ -1,28 +1,32 @@
 # jQuery - zadania domowe
 > Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
-BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcjie i metody MUSZĄposiadać nazwy dokładnie takie same jak podane w zadaniu.
+BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcjie i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane w zadaniu.
 
 > Zadania z dopiskiem "dodatkowe" są dla chętnych. Znajdziesz je na końcu.
 
-### Dzień 1 - jQuery
-> Zadania z tego dnia wykonuj w pliku dzienPierwszy.js
+### Dzień 1 - Sass
+> Zadania z tego dnia wykonuj w pliku main.scss. Wygeneruj odpowiedni plik .css do folderu css
 
 #### Zadanie 1
 
-Zajrzyj do pliku ```index.html```. Jest tam sporo elementów. Za pomocą jQuery znajdź wszyskie elementy z klasą ```border``` i nadaj im dowolne obramowanie.
+Napisz mixin o nazwie `setTooltip`, za pomocą którego będzie można ustawić dowolny tekst na tooltipie. Jako argument przekaż tekst do wyświetlenia oraz kolor tooltipa. Niech tooltipy pojawiają się po najechaniu na element `ul` o klasie `lista` znajdujący się w pliku `index.html`
+Podpowiedź: Stwórz odpowiedni pseudoelement np. :before lub :after.
 
 #### Zadanie 2
 
-Zajrzyj do pliku ```index.html```. Znajdź element o id ```menu``` i zapisz do zmiennej.
-Zapisz do innej zmiennej również wszystkie dzieci tego elementu. Napisz kod, który zamieni
-tekst ostatniego dziecka na "Jestem ostatnim dzieckiem".
+Na podstawie poniższej mapy. Za pomoca odpowiedniej funkcji zrób z niej listę, zawierającą same wartości.
+Za pomocą odpowiedniej pętli ustaw wielkości dla nagłówków z pliku `index.html`, od największego do najmniejszego.
 
-#### Zadanie 3
+```
+$font-sizes: (
+ fs1: 100px,
+ fs2: 50px,
+ fs3: 6px
+ );
+```
+Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
 
-Zajrzyj do pliku ```index.html```. Zapisz o zmiennej elementy menu. Ustaw każdemu z nich kolor tekstu na taki jaki mają ustawiony w atrybucie `data-color`.
-
-
-### Dzień 2 - jQuery
+### Dzień 2 - RWD
 > Zadania z tego dnia wykonuj w pliku dzienDrugi.js
 
 #### Zadanie 1 - Prosta animacja

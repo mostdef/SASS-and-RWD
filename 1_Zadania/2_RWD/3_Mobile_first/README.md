@@ -6,6 +6,14 @@
 
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Mixin, mobile first
+### Zadanie 1. Mixin, mobile first  (~ 15min - 20min)
 
-Ustaw wielkość fontu dla swojego projektu (dla nagłówków, paragrafów itp). Zapisz wielkości do zmiennych w Sassie. Zapisz również do zmiennych breakpoints dla telefonu i tabletu. Następnie napisz mixin,	który w zależności od urządzenia powiększy font o **2px**. Użyj podejścia mobile first.
+W pliku `index.html` znajdziesz sekcję o klasie `container`, a w niej element `div` o klasie `sidebar` oraz element `section`.  Użyj podejścia mobile first.
+Ustaw te elementy w następujący sposób:
+
+Ekrany poniżej 600px:
+
+![Mobile](images/mobile.png)
+
+Ekrany powyżej 600px:
+![PC](images/pc.png)

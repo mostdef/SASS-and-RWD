@@ -6,9 +6,18 @@
 
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Wstawianie obrazów
 
-Na swoją stronę wstaw obraz (rabbit.png ) na dwa następujące sposoby:
+### Zadanie 1. Wstawianie obrazka 1 (~ 2min - 7min)
+
+W pliku `index.html` znajdziesz sekcję o nazwie `one-image`. Ustaw jej wysokość, szerokość i obramowanie. Następnie wstaw do niej obraz rabbit.png za pomocą tagu `img` w taki sposób, aby zajmował 100% elementu rodzica.
+
+### Zadanie 2. Wstawianie obrazka 2 (~ 2min - 7min)
+
+W pliku `index.html` znajdziesz sekcję o nazwie `one-image-bg`. Ustaw jej wysokość, szerokość i obramowanie. Następnie wstaw do niej obraz rabbit.png za pomocą css - `background-image`, w taki sposób, aby zajmował 50% elementu rodzica.
+
+### Zadanie 3. Wstawianie obrazów (~ 15min - 20min)
+
+W pliku `index.html` znajdziesz sekcję o nazwie `images`. Wstaw do niej obraz (rabbit.png ) na dwa następujące sposoby:
 * przez tag **img**,
 * jako tło elementu **div**.
 

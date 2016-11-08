@@ -63,5 +63,4 @@ procentowych.
 Elementowi o klasie `test_height_daddy` (z poprzedniego zadania) zakomentuj wysokość. Napisz w komentarzy swoje spostrzeżenia.
 
 ### Zadanie 10. (~ 2min - 7min)
-
-Zadania z vh i vw
+Za pomocą jednostek viewportu ustaw element `h1` na środku (w pionie i w poziomie).

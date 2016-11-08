@@ -29,15 +29,16 @@ Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
 ### Dzień 2 - RWD
 > Zadania z tego dnia wykonuj w pliku dzienDrugi.js
 
-#### Zadanie 1 - Prosta animacja
+#### Zadanie 1 - 
 
-Zajrzyj do pliku ```index.html```. Napisz kod, za pomocą którego po najechaniu na którykolwiek
-obrazek uniesie się on lekko do góry (dokładniej mówiąć o 10px). Po zjechaniu powinien wrócić do poprzedniej
-pozycji. Wykorzystaj jakąś animację.
 
-#### Zadanie 2 - Dodawanie tagów
 
-Znajdź w pliku `index.html` element ```userPanel```. Jest w nim pole typu ```input``` oraz element o klasie ```panel```. Napisz kod, za pomocą którego tekst wpisany do pola input zostanie ( po wciśnięciu w przycisk `Wstaw` ) dodany do elementu o klasie ```panel```. Tekst powinien być dodawany jako span `span` z klasą **tag**.
+#### Zadanie 2. Flexbox &ndash; layout
+W pliku `index.html` znajdziesz sekcję o nazwie `hoily-grail`.
+Za pomocą flexboxa stwórz szablon strony na podstawie layoutu niżej:
+
+![grid](images/hoily.jpg)
+
 
 
 ### Dzień 3

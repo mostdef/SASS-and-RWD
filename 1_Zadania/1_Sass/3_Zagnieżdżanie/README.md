@@ -2,6 +2,12 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+#### Selektor rodzica (~ 5min - 10min)
+
+Za pomocą selektora rodzica & i odpowiedniego zagnieżdżenia, znajdż w elemencie `main-width` pierwszy element listy i zmień mu kolor na czerwony.
+
 -------------------------------------------------------------------------------
 ## Zadania do samodzielnego wykonania
 

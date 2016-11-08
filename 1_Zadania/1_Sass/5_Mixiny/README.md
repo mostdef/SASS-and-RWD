@@ -2,7 +2,14 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+#### Mixin (~ 5min - 10min)
+
+Za pomocą selektora rodzica & i odpowiedniego zagnieżdżenia, znajdż w elemencie ` first-element` pierwszy element listy i zmień mu kolor na czerwony.
+
 -------------------------------------------------------------------------------
+
 ## Zadania do samodzielnego wykonania
 
 ### Zadanie 1. Mixin border  (~ 5min - 10min)

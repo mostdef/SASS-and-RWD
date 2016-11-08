@@ -2,6 +2,13 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+
+## Zadanie rozwiązywane z wykładowcą
+
+
+###  Mapy kodu źródłowego  (~ 2min - 7min)
+Wygeneruj sourcemaps dla Twojego pliku **scss** i przetestuj jej działanie w przeglądarce.
+
 -------------------------------------------------------------------------------
 ## Zadania do samodzielnego wykonania
 
@@ -14,13 +21,10 @@ Przetestuj różne opcje formatowania styli wyjściowych
 
 Który Ci najbardziej odpowiada?
 
-### Zadanie 2. Mapy kodu źródłowego  (~ 2min - 7min)
-Wygeneruj sourcemaps dla Twojego pliku **scss** i przetestuj jej działanie w przeglądarce.
-
-### Zadanie 3. Komentarze  (~ 2min - 7min)
+### Zadanie 2. Komentarze  (~ 2min - 7min)
 Dodaj oba rodzaje komentarzy do pliku **scss** i sprawdź, które są kompilowane do CSS, a które nie.
 
-### Zadanie 4. Zmienne  (~ 5min - 10min)
+### Zadanie 3. Zmienne  (~ 5min - 10min)
 * Zdefiniuj dwie zmienne przechowujące główne kolory strony.
 * W pliku **index.html** jest zdefiniowana lista **ul** o **klasie** ```menu```. Zmień kolor jej tekstu na jeden ze zdefiniowanych kolorów głównych. Ten sam kolor ustaw dla nagłówka.
 * Dodaj kolejną zmienną, w której zdefiniujesz padding górny i dolny. Ustaw padding dla elementów **section**.

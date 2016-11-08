@@ -5,7 +5,7 @@ BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu
 > Zadania z dopiskiem "dodatkowe" są dla chętnych. Znajdziesz je na końcu.
 
 ### Dzień 1 - Sass
-> Zadania z tego dnia wykonuj w pliku main.scss. Wygeneruj odpowiedni plik .css do folderu css
+> Zadania z tego dnia wykonuj w pliku main.scss oraz index.html. Wygeneruj odpowiedni plik .css do folderu css
 
 #### Zadanie 1
 
@@ -14,8 +14,8 @@ Podpowiedź: Stwórz odpowiedni pseudoelement np. :before lub :after.
 
 #### Zadanie 2
 
-Na podstawie poniższej mapy. Za pomoca odpowiedniej funkcji zrób z niej listę, zawierającą same wartości.
-Za pomocą odpowiedniej pętli ustaw wielkości dla nagłówków z pliku `index.html`, od największego do najmniejszego.
+Na podstawie poniższej mapy. Za pomoca odpowiedniej funkcji sass zrób z niej listę, zawierającą same wartości.
+Następnie za pomocą odpowiedniej pętli ustaw wielkości dla nagłówków z pliku `index.html`, od największego do najmniejszego, wykorzystując wartości listy.
 
 ```
 $font-sizes: (
@@ -26,67 +26,39 @@ $font-sizes: (
 ```
 Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
 
-### Dzień 2 - RWD
-> Zadania z tego dnia wykonuj w pliku dzienDrugi.js
+### Dzień 2 - RWD część 1
+> Zadania z tego dnia wykonuj w pliku main.scss oraz index.html. Wygeneruj odpowiedni plik .css do folderu css
 
-#### Zadanie 1 - 
+#### Zadanie 1 - Jednostki RWD
+
+W pliku `index.html` znajdziesz sekcję o nazwie `test_units`. Ustaw w niej wielkość tekstu na `30px`, dodaj
+obramowanie i ustaw szerokość  `25em` oraz wysokość na `5em`.
+Ustaw również elementowi `header` wielkość tekstu na `50%` oraz wszystkim elementom `span` wielkość tekstu (za pomocą jednostki `em`) w taki sposób, aby:
+* span pierwszy był o połowę mniejszy od wielkości tekstu zdefiniowanego dla sekcji `test_units`,
+* span drugi miał taką samą wielkość jak tekst zdefiniowany dla sekcji  `test_units`.
 
 
+#### Zadanie 2 - Media Queries
+W pliku `index.html` znajdziesz sekcję o nazwie `blocks`.
+Stwórz w niej 5 elementów `div` o klasie `block` i każdemu ustaw następujące własności:
+* szerokość na `25%`
+* wysokość na `100vh`
+* obramowanie na `1px solid red`
+* ustaw je również obok siebie (jeśli będziesz mieć problem, przypomnij sobie o box-model)
 
-#### Zadanie 2. Flexbox &ndash; layout
+Następnie:
+* na ekrantach mniejszych niż `450px`, ustaw elementy pod sobą i ukryj ostatni,
+* na ekranach większych niż `450px`, ale mniejszych niż `720px`, ustaw elementy obok siebie, pokaż ostatni i ukryj pierwszy,
+* na ekranach większych niż `720px`, ale mniejszych niż `1024px`, pokaż tylko ostatni i pierwszy element.
+Skorzystaj z podejścia **Mobile first**.
+
+### Dzień 3 - RWD część 2
+> Zadania z tego dnia wykonuj w pliku main.scss oraz index.html. Wygeneruj odpowiedni plik .css do folderu css
+
+#### Zadanie 1. Flexbox &ndash; layout
 W pliku `index.html` znajdziesz sekcję o nazwie `hoily-grail`.
 Za pomocą flexboxa stwórz szablon strony na podstawie layoutu niżej:
 
 ![grid](images/hoily.jpg)
 
-
-
-### Dzień 3
-> Zadania z tego dnia wykonuj w pliku dzienTrzeci.js
-
-#### Zadanie 1
-Dokończ warsztaty jeśli nie skończyłeś na zajęciach. Jeśli masz skończone powtórz materiał.
-
-### Dzień 4 - Ajax
-> Zadania z tego dnia wykonuj w pliku dzienCzwarty.js
-
-#### Zadanie 1 - Galeria zdjęć
-
-Znajdź w pliku `index.html` element ```gallery```. Jest to sekcja, w której znajduje się pusta lista ```ul```.
-Twoim zadaniem jest stworzenie galerii z obrazkami :). Obrazki pobierz z api udostępnionego przez serwis jsonplaceholder.
-Wczytaj plik ```json``` z adresu https://jsonplaceholder.typicode.com/photos
-Kolejne obrazeki wstawiaj do kolejnych elementów ```li```. Dodaj do galerii tylko 10 obrazków, nie więcej.
-
-Efekt powinieć wyglądać mniej więcej tak:
-![galeria](images/galeria.png)
-
------------------------------------------
-<!--- Czekam az bedzie api
-### Dodatkowe
-
-#### Zadanie 1 - Lista ToDO
-
-
-W folderze ```toDO``` znajdziesz pliki potrzebne do stworzenia listy toDO.
-Spróbuj zrobić je za pomocą jQuery, zapisując i usuwając elementy z serwera. Wykorzystaj AJAX.
-
-Pod adresem http://api.coderslab.pl/todoList są przechowywane elementy listy toDO.
-Lista ta ma spełniać następujące założenia:
-
-1. Po wpisaniu zadania i naciśnięciu guzika ```Add task``` do listy ma zostać dodane nowe zadanie (z wpisaną odpowiednią treścią). Jednocześnie ma się wyświetlić guzik służący do oznaczenia tego zadania jako zrobione oraz guzikiem służącym do usunięcia tego zadania (przykładowe zadanie jest zakomentowane w HTML).
-Zadanie powinno również zostać zapisane na serwerze.
-
-2. Po naciśnięciu na guzik ```Complete``` treść zadania ma się zmienić na kolor czerwony (jeżeli zadanie jest zrobione). Po ponownym naciśnieciu zadanie wraca do koloru domyślnego (czyli oznaczającego zadanie niezrobione).
-
-3. Po naciśnieciu guzika ```Delete``` zadanie ma zniknąć z listy.
-Zadanie powinno również zostać usunięte z serwera.
-
-4. Po naciśnięciu guzika ```Remove finished tasks``` wszystkie zrobione zadania mają zniknąć z listy.
-Zadania powinny również zostać usunięte z serwera. Pokaż użytkownikowi komunikat czy jest pewien tego że wszystkie elementy listy zostaną usunięte.
-
-5. Zadanie może być dodane tylko gdy jego treść ma więcej niż pięć, a mniej niż sto znaków.
-
-6. Po dodaniu zadania wartość inputa ma się zerować.
-
-7. Ponad listą ma się znajdować licznik pokazujący, ile zadań zostało nam do zrobienia.
--->
+### Dzień 4 - Powtórz materiał i zadania

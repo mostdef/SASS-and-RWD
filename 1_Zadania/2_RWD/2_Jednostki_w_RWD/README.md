@@ -60,7 +60,9 @@ procentowych.
 
 ### Zadanie 9. (~ 2min - 7min)
 
-Elementowi o klasie `test_height_daddy` (z poprzedniego zadania) zakomentuj wysokość. Napisz w komentarzy swoje spostrzeżenia.
+Elementowi o klasie `test_height_daddy` (z poprzedniego zadania) zakomentuj wysokość. Napisz w komentarzu swoje spostrzeżenia.
 
 ### Zadanie 10. (~ 2min - 7min)
+
+W pliku `index.html` znajdziesz element `h1`.
 Za pomocą jednostek viewportu ustaw element `h1` na środku (w pionie i w poziomie).

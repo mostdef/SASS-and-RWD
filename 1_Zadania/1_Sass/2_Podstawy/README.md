@@ -5,7 +5,6 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-
 ###  Mapy kodu źródłowego  (~ 2min - 7min)
 Wygeneruj sourcemaps dla Twojego pliku **scss** i przetestuj jej działanie w przeglądarce.
 

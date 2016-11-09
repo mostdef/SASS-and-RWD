@@ -2,7 +2,16 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+### 1. Clearfix jeszcze raz (~ 5min - 10min)
+
+Znajdź w pliku `index.html` element `section` o klasie `test-mixin`. Ostyluj elementy wewnątrz zgodnie z opisem ich klas (obramowanie, lewa strona, )
+Nastepnie stwórz za pomocą placeholdera sass - `%` regułę dla clearfix. Clearfx ma dodawać do odpowiedniego elementu pseudoklasy `:before` i `:after`.
+Wykrzystaj dyrektywę `@extend` do roszerzenia poszczególnych elementów o ten placeholder.
+
 -------------------------------------------------------------------------------
+
 ## Zadania do samodzielnego wykonania
 
 ### Zadanie 1. Dziedziczenie  (~ 5min - 10min)
@@ -12,7 +21,9 @@ W prezentacji rozmawialiśmy o problemach związanych z extend. Omawialiśmy nas
 Spróbuj naprawić oba te problemy.
 
 ### Zadanie 2. Placeholder (~ 10min - 15min)
-Stwórz w jednej z sekcji trzy boksy reprezentujące: success, error i info.
+
+Znajdź w pliku `index.html` element `section` o klasie `container`.
+Stwórz w niej trzy boksy reprezentujące: success, error i info.
 
 ![Placeholder](images/placeholder.jpg)
 

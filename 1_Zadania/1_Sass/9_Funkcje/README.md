@@ -2,7 +2,16 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+### Rozjaśnianie
+
+Stwórz zmienną i wstaw do niej kolor czerwony rozjaśniony o 40%.
+Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
+
 -------------------------------------------------------------------------------
+
+
 ## Zadania do samodzielnego wykonania
 
 ## Zadanie 1. Wartość procentowa (~ 2min - 5min)

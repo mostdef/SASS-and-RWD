@@ -21,3 +21,4 @@ Zorganizuj pliki Sass według schematu:
     main.scss
 ```
 Przeglądarka powinna wysłać tylko jedno zapytanie do serwera dotyczące plików CSS (Pamiętaj o podkreśleniach w nazwach plików).
+Upewnij się, że każdy plik jest obserwowany przez watcher w gulpie. Jeśli nie jesteś pewien zapytaj wykładowcę.

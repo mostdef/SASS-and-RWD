@@ -2,6 +2,12 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+### Różne wielkości dla czcionek  (~ 5min - 10min)
+
+W pliku `index.html` znajdziesz sekcję o nazwie `test` przetestuj działanie jednostek `px`, `rem`, `em` oraz `%`, ustawiając wielkość czcionek dla poszczegółnych elementów.
+
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania

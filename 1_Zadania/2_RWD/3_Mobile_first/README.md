@@ -2,6 +2,12 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+### Zmiana tła  (~ 5min - 10min)
+
+W pliku `index.html` zmień tło strony na żółte jeśli szerokość ekranu jest mniejsza niż `420px`. Użyj podejścia mobile first.
+
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania

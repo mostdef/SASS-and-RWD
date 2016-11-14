@@ -2,6 +2,13 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+### Flexbox - layout (~ 7min - 12min)
+
+W pliku `index.html` znajdziesz element `article`. Ustaw poszczególne elementy `div` zgodnie z poniższym przykładem. Użyj flexboxa.
+
+![Flexbox](images/flex.png)
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania

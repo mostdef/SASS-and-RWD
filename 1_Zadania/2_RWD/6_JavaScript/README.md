@@ -2,6 +2,12 @@
 
 > Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+### matchMedia oraz event resize (~ 7min - 12min)
+
+Przetestuj zalety i wady używania eventu resize oraz metody matchMedia. Kiedy wywoływany jest event resize, a kiedy metoda matchMedia? Jak często są wywoływane?
+
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania

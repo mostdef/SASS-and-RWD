@@ -14,7 +14,7 @@ Podpowiedź: Stwórz odpowiedni pseudoelement np. :before lub :after.
 
 #### Zadanie 2
 
-Na podstawie poniższej mapy. Za pomoca odpowiedniej funkcji sass zrób z niej listę, zawierającą same wartości.
+Na podstawie poniższej mapy (za pomoca odpowiedniej funkcji sass), zrób listę zawierającą same wartości.
 Następnie za pomocą odpowiedniej pętli ustaw wielkości dla nagłówków z pliku `index.html`, od największego do najmniejszego, wykorzystując wartości listy.
 
 ```
@@ -31,14 +31,16 @@ Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
 
 #### Zadanie 1 - Jednostki RWD
 
-W pliku `index.html` znajdziesz sekcję o nazwie `test_units`. Ustaw w niej wielkość tekstu na `30px`, dodaj
-obramowanie i ustaw szerokość  `25em` oraz wysokość na `5em`.
-Ustaw również elementowi `header` wielkość tekstu na `50%` oraz wszystkim elementom `span` wielkość tekstu (za pomocą jednostki `em`) w taki sposób, aby:
+W pliku `index.html` znajdziesz sekcję o nazwie `test_units`. Przyjrzyj się jej dokładnie. Wewnąrz jest kilka elementów.
+Ustaw sekcji `test_units` wielkość tekstu na `30px`, dodaj jej obramowanie i ustaw szerokość na `25em` oraz wysokość na `5em`.
+Ustaw również elementowi `header` wielkość tekstu na `50%`.
+
+Twoim zadaniem jest napisanie jednej reguły css dla elementów span, która ustawi im wielkość tekstu (za pomocą jednostki `em`) w taki sposób, aby:
 * span pierwszy był o połowę mniejszy od wielkości tekstu zdefiniowanego dla sekcji `test_units`,
 * span drugi miał taką samą wielkość jak tekst zdefiniowany dla sekcji  `test_units`.
 
 
-#### Zadanie 2 - Media Queries
+#### Zadanie 2 - Media Queries i Mobile first
 W pliku `index.html` znajdziesz sekcję o nazwie `blocks`.
 Stwórz w niej 5 elementów `div` o klasie `block` i każdemu ustaw następujące własności:
 * szerokość na `25%`
@@ -61,4 +63,18 @@ Za pomocą flexboxa stwórz szablon strony na podstawie layoutu niżej:
 
 ![grid](images/hoily.jpg)
 
-### Dzień 4 - Powtórz materiał i zadania
+### Dzień 4 Sass/RWD
+
+#### Zadanie 1. Bootstrap
+
+Jako początkujący frontend developer musisz się przyzwyczajać do ciągłej nauki, do ciągłego doskonalenia własnych umiejętności. Technologie i języki się zmieniają. Ważne, aby zdawać sobie z tego sprawę i nadążać za zmianami.
+W nazwiązaniu do wstępu zajrzyj na stronę http://getbootstrap.com/examples/grid/
+Przetestuj ją, jak skalują się kolumny?
+Następnie wejdź na stronę http://getbootstrap.com/ , ściągnij odpowiednie pliki :) i dołącz do projektu.
+Kiedy już dodasz bootstrapa do projektu, spróbuj:
+* stworzyć kilka kolumn korzystając z jego dowolnych klas
+* stworzyć kilka nagłówków np. `h1`, `h2`, `h3`, `h4` itd.
+* stworzyć kilka przycisków i dodać im dowolne klasy z bootstrapa
+* stworzyć przykładowy layout http://getbootstrap.com/getting-started/#template
+
+#### Zadanie 2. Powtórz materiał :) 

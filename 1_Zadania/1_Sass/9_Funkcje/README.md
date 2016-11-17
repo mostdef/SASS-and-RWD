@@ -4,7 +4,7 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Rozjaśnianie
+### Rozjaśnianie (~ 2min - 5min)
 
 Stwórz zmienną i wstaw do niej kolor czerwony rozjaśniony o 40%.
 Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html

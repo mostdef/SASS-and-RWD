@@ -12,7 +12,7 @@ Stwórz 12-kolumnowy grid za pomocą Sass. Odpowiednio zagnieźdź elementy tak,
 
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Strona w układzie grid
+### Zadanie 1. Strona w układzie grid (~ 15min - 20min)
 
 Przygotuj prostą stronę w oparciu o układ kolumnowy, odwzoruj poniższy obraz. Skorzystaj z grida, który stworzyliście wcześniej z wykładowcą.
 

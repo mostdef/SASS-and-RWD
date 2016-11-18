@@ -68,7 +68,7 @@ Za pomocą flexboxa stwórz szablon strony na podstawie layoutu niżej:
 
 W pliku `index.html` znajdziesz sekcję o nazwie `flex-container`. 
 
-* dodaj do jej klasy właściwość display: flex oraz ustaw mu tło. Niech kierunek flexa będzie poziomy. 
+* dodaj do jej klasy właściwość display: flex oraz ustaw tło. Niech kierunek flexa będzie poziomy. 
 * następnie dodaj wewnątrz kontenera kilka zdjęć obok siebie o łącznej szerokości, co najmniej 500px, ale nie większej niż 1024px – niech wymiary zdjęć będą takie same.
 * ustaw zdjęcia tak, by były wyśrodkowane względem wysokości kontenera
 * dodaj odpowiednie właściwości kontenerowi i zdjęciom, tak aby przy zmniejszaniu rozmiaru okna przeglądarki, zdjęcia się nie kurczyły, tylko przewijały

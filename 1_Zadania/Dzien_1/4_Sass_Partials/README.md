@@ -7,7 +7,7 @@
 
 
 ### Zadanie 1. Organizacja projektu  (~ 10min - 15min)
-Zorganizuj pliki Sass według schematu:
+Stwórz potrzebne foldery i pliki i zorganizuj  według schematu:
 
 ```
 [folder] sass

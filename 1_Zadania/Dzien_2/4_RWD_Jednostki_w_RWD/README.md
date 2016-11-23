@@ -12,13 +12,11 @@ W pliku `index.html` znajdziesz sekcję o nazwie `test` przetestuj działanie je
 
 ## Zadania do samodzielnego wykonania
 
-
 ### Zadanie 1. (~ 2min - 7min)
 
 W pliku `index.html` znajdziesz sekcję o nazwie `panel`, a w niej paragraf z tekstem.
 Ustaw dla sekcji wielkość tekstu na 40px, a dla paragrafu ustaw wielkość tekstu o połowę mniejszą.
 Użyj jednostki em.
-
 
 ### Zadanie 2. (~ 5min - 10min)
 

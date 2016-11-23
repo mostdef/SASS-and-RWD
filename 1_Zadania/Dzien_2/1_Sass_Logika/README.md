@@ -4,7 +4,7 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Zadanie 1. Interpolacja i logika (~ 10min - 15min)
+### Interpolacja i logika (~ 10min - 15min)
 
 Wstaw na stronie kilka nagłówków, np. od **h1** do **h4**. Zapisz za pomocą zmiennej wysokość linii i podstawowy rozmiar tekstu, a następnie zastosuj te style dla całego dokumentu.
 
@@ -18,8 +18,7 @@ Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
 -------------------------------------------------------------------------------
 ## Zadania do samodzielnego wykonania
 
-
-### 1. Dzień i noc (~ 5min - 10min)
+### Zadanie 1. Dzień i noc (~ 5min - 10min)
 
 Stwórz zmienną o nazwie `timeOfDay`, do której wstaw informację jaka jest aktualnie pora dnia.
 Nastepnie napisz mixin, za pomocą którego będzie można usawić tło strony w nastepujący sposób:

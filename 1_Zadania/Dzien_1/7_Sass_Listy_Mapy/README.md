@@ -13,11 +13,11 @@ Następnie stwórz mapę zawierającą 3 różne szerokości.  Ustaw te szeroko�
 
 ## Zadania do samodzielnego wykonania
 
-## Zadanie 1. Mapa (~ 5min - 10min)
+### Zadanie 1. Mapa (~ 5min - 10min)
 
 Stwórz mapę z pięcioma wybranymi kolorami. Wykorzystaj ją do ustawienia koloru tła strony, tekstu i stopki.
 
-## Zadanie 2. Mapa (~ 2min - 5min)
+### Zadanie 2. Mapa (~ 2min - 5min)
 
 Stwórz mapę z 2 różnymi szerokościami, np.
 - `$min-width`

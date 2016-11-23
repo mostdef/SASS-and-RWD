@@ -1,4 +1,4 @@
-# jQuery - zadania domowe
+# Sass & RWD - zadania domowe
 > Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
 BARDZO WAŻNE - Wasze zadania są sprawdzane przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne, strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcje i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane w zadaniu.
 

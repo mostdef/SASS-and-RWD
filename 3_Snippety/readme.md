@@ -5,7 +5,7 @@
 
 ## Gulp
 
-### 1. Jak powinien wygladać gulpfile ?
+### 1. Jak powinien wygladać gulpfile - kompilacja Sass ?
 
 ```JavaScript
 var gulp = require('gulp');
@@ -15,7 +15,10 @@ var sourcemaps = require('gulp-sourcemaps');
 gulp.task('sass', function() {
     return gulp.src('scss/style.scss')
         .pipe(sourcemaps.init())
-        .pipe(sass({errLogToConsole: true}))
+        .pipe(sass({
+            errLogToConsole: true,
+            outputStyle: 'expanded'
+        }))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('css'))
 });

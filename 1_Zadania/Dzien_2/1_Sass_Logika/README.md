@@ -11,7 +11,7 @@ Wstaw na stronie kilka nagłówków, np. od **h1** do **h4**. Zapisz za pomocą 
 Ostyluj nagłówki w taki sposób, aby na podstawie zdefiniowanego rozmiaru tekstu zmieniała się ich wielkość. Wykorzystaj pętle i interpolację.
 Oblicz odpowiednio rozmiar każdego nagłówka, pamiętaj o ich hierarchii (**h1** powinien być największy).
 
-Ustaw kolory nagłówków tak, by każdy kolejny był jaśniejszy od poprzedniego o **15%**.
+Ustaw nagłówkom różne kolory.
 
 Skorzystaj: http://sass-lang.com/documentation/Sass/Script/Functions.html
 

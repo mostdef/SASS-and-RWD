@@ -4,10 +4,19 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Zmiana tła  (~ 5min - 10min)
+### Zadanie 1. Zmiana tła  (~ 5min - 10min)
 
 W pliku `index.html` zmień tło strony na żółte jeśli szerokość ekranu jest mniejsza niż `420px`, jeśli jest większa niż `420px`
 zmień kolor tła na niebieskie.
+
+### 2. Mixin  i `@content` (~ 5min - 10min)
+
+Znajdź w pliku `index.html` element `form` o klasie `my-form`.
+
+Stwórz mixin, za pomocą którego będzie można ustawić `placeholder` dla elementów `input` oraz `textarea` w każdej przeglądarce.
+Wykorzystaj atrybut `@content`, aby móc przekazać do mixina color tekstu.
+
+Pamiętaj, że w przypadku elementu textarea dodanie odstępu pomiędzy tagiem otwierającym a zamykającym (spacja, enter) powodują, że placeholder nie działa.
 
 -------------------------------------------------------------------------------
 

@@ -4,7 +4,7 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Tworzenie projektu (~ 5min - 10min)
+### Zadanie 1. Tworzenie projektu (~ 5min - 10min)
 * Dodaj w pliku **index.html** nagłówek **h1** z tekstem, np.  „Hello, Sassy!” i otwórz go w przeglądarce.
 * Utwórz katalog o nazwie **scss**, a w nim plik &ndash; **main.scss**. W pliku określ kolor nagłówka oraz kolor tła całej strony. Najlepiej tak, aby nagłówek był czytelny.
 * W pliku **index.html** wczytaj wygenerowany arkusz styli (z odpowiednim rozszerzeniem).
@@ -13,6 +13,9 @@
 * Odśwież stronę w przeglądarce.
 * Zmień kolor nagłówka w pliku **scss** i ponownie odśwież stronę.
 
+Zadanie 2. .gitignore (~ 2min - 5min)
+
+Dodaj do swojego projektu plik .gitignore, w którym uwzględnij ignorowanie folderu node_modules.
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania

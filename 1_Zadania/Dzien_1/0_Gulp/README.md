@@ -12,7 +12,7 @@
 Zainstaluj gulp za pomocą npm. Stwórz plik gulpfile.js. Stwórz w nim zadanie, za pomocą którego będzie można kompilować pliki Sass
 do css. Stwórz odpowiedni watcher, który będzie obserwował nie tylko zmiany w jednym pliku, ale na całym katalogu.
 
-### Zadanie 1. Styl wyjściowy  (~ 60min - 90min)
+### Zadanie 2. Styl wyjściowy  (~ 60min - 90min)
 
 Zmień styl wyjściowy kodu na expanded. 
 

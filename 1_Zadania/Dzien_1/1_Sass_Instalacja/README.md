@@ -13,6 +13,10 @@
 * Odśwież stronę w przeglądarce.
 * Zmień kolor nagłówka w pliku **scss** i ponownie odśwież stronę.
 
+### Zadanie 2. .gitignore (~ 2min - 5min)
+
+Dodaj do swojego projektu plik .gitignore, w którym uwzględnij ignorowanie folderu node_modules.
+
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania

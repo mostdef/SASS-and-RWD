@@ -11,4 +11,7 @@
 
 Zainstaluj gulp za pomocą npm. Stwórz plik gulpfile.js. Stwórz w nim zadanie, za pomocą którego będzie można kompilować pliki Sass
 do css. Stwórz odpowiedni watcher, który będzie obserwował nie tylko zmiany w jednym pliku, ale na całym katalogu.
+<<<<<<< HEAD
 
+=======
+>>>>>>> ec60e2612e7dec86b7e695b0158ddcf24a5bc1ff

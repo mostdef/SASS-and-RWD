@@ -4,7 +4,7 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### 1. Prosty mixin  (~ 5min - 10min)
+### Zadanie 1. Prosty mixin  (~ 5min - 10min)
 
 Znajdź w pliku `index.html` element `section` o klasie `test-mixin`. Ostyluj elementy wewnątrz zgodnie z opisem ich klas (obramowanie, lewa strona, )
 Nastepnie stwórz prosty mixin, który doda do  odpowiedniego elementu pseudoklasy `:before` i `:after`. Niech mixin ma nazwę **clearfix**.

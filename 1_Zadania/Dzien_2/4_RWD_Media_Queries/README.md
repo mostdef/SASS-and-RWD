@@ -9,11 +9,7 @@
 W pliku `index.html` zmień tło strony na żółte jeśli szerokość ekranu jest mniejsza niż `420px`, jeśli jest większa niż `420px`
 zmień kolor tła na niebieskie.
 
-<<<<<<< HEAD:1_Zadania/Dzien_2/4_RWD_Media_Queries/README.md
-### 2. Mixin  i `@content` (~ 5min - 10min)
-=======
 ### Zadanie 2. Mixin  i `@content` (~ 5min - 10min)
->>>>>>> ec60e2612e7dec86b7e695b0158ddcf24a5bc1ff:1_Zadania/Dzien_2/3_RWD_Media_Queries/README.md
 
 Znajdź w pliku `index.html` element `form` o klasie `my-form`.
 

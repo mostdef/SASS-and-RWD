@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # Sass - Instalacja i uruchomienie
 > Do kompilacji możesz używasz narzędzia gulp, albo kompilować za pomocą Ruby.
 

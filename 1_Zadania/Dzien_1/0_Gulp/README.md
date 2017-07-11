@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # Gulp
 > Instalacja i uruchomienie Gulpa może przysporzyć na początku trochę problemów.
 > Pamiętaj, że im więcej problemów teraz napotkasz tym później będzie łatwiej. Naucz się czytać

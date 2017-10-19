@@ -1,0 +1,55 @@
+/*zadanie 0*/
+$font-size: 50px;
+$line-height: 100px;
+
+body {
+  font-size: $font-size;
+  line-height: $font-size;
+}
+
+@for $i from 1 through 4 {
+  h#{$i} {
+    font-size: $font-size - 8px * $i;
+    line-height: $line-height - 8px * $i;
+
+    color: rgb(random(256)-1, random(256)-1, random(256)-1);
+  }
+}
+
+/*zadanie 1*/
+$timeOfDay: 'midday';
+
+@mixin bgBody ($time) {
+  @if $time == 'morning' {
+    background: orange;
+  }
+
+  @if $time == 'midday' {
+    background: yellow;
+  }
+
+  @if $time == 'evening' {
+    background: navy;
+  }
+
+  @if $time == 'night' {
+    background: black;
+  }
+}
+
+body {
+  @include bgBody($timeOfDay);
+}
+
+/*zadanie 2*/
+@for $i from 1 through 10 {
+  .block_#{$i} {
+    @if $i%2 == 1 {
+      border: 1px solid blue;
+    } @else {
+      border: 1px solid orange;
+    }
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+}

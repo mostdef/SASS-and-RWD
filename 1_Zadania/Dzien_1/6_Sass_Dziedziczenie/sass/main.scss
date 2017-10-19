@@ -1,0 +1,49 @@
+/*zadanie 0*/
+%clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.test-mixin {
+  .left_box,
+  .right_box {
+      width: 50%;
+
+  }
+
+  .left_box {
+    float: left;
+  }
+  .right_box {
+    float: right;
+  }
+
+  @extend %clearfix;
+}
+
+/* zadanie 1 - ????*/
+
+/* zadanie 2*/
+%box {
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  background: rgba(green, 0.2);
+}
+.success {
+  @extend %box;
+}
+.error {
+  @extend %box;
+  background: rgba(red, 0.2);
+  border-color: red;
+}
+.info {
+  @extend %box;
+  background: rgba(yellow, 0.1);
+  border-color: yellow;
+}

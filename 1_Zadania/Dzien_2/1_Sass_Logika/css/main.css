@@ -1,0 +1,36 @@
+/*zadanie 0*/
+body { font-size: 50px; line-height: 50px; }
+
+h1 { font-size: 42px; line-height: 92px; color: #00f2ef; }
+
+h2 { font-size: 34px; line-height: 84px; color: #8fcf85; }
+
+h3 { font-size: 26px; line-height: 76px; color: #c6911c; }
+
+h4 { font-size: 18px; line-height: 68px; color: #fc80c0; }
+
+/*zadanie 1*/
+body { background: yellow; }
+
+/*zadanie 2*/
+.block_1 { border: 1px solid blue; padding: 5px; margin-bottom: 5px; }
+
+.block_2 { border: 1px solid orange; padding: 5px; margin-bottom: 5px; }
+
+.block_3 { border: 1px solid blue; padding: 5px; margin-bottom: 5px; }
+
+.block_4 { border: 1px solid orange; padding: 5px; margin-bottom: 5px; }
+
+.block_5 { border: 1px solid blue; padding: 5px; margin-bottom: 5px; }
+
+.block_6 { border: 1px solid orange; padding: 5px; margin-bottom: 5px; }
+
+.block_7 { border: 1px solid blue; padding: 5px; margin-bottom: 5px; }
+
+.block_8 { border: 1px solid orange; padding: 5px; margin-bottom: 5px; }
+
+.block_9 { border: 1px solid blue; padding: 5px; margin-bottom: 5px; }
+
+.block_10 { border: 1px solid orange; padding: 5px; margin-bottom: 5px; }
+
+/*# sourceMappingURL=main.css.map */

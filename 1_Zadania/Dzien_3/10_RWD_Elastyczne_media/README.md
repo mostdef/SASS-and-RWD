@@ -21,8 +21,8 @@ Wykorzystaj zdobytą wiedzę i ustaw style tak, aby oba obrazy skalowały się p
 
 ### Zadanie 1. Wstawianie obrazka 1 (~ 2min - 7min)
 
-W pliku `index.html` znajdziesz sekcję o nazwie `one-image`. Ustaw jej wysokość, szerokość i obramowanie. Następnie wstaw do niej obraz rabbit.png za pomocą tagu `img` w taki sposób, aby zajmował 100% elementu rodzica.
+W pliku `index.html` znajdziesz sekcję o nazwie `one-image`. Ustaw jej wysokość, szerokość i obramowanie. Następnie wstaw do niej obraz rabbit.png za pomocą tagu `img` w taki sposób, aby zajmował 100% szerokości i wysokości elementu rodzica.
 
 ### Zadanie 2. Wstawianie obrazka 2 (~ 2min - 7min)
 
-W pliku `index.html` znajdziesz sekcję o nazwie `one-image-bg`. Ustaw jej wysokość, szerokość i obramowanie. Następnie wstaw do niej obraz rabbit.png za pomocą css - `background-image`, w taki sposób, aby zajmował 50% elementu rodzica.
+W pliku `index.html` znajdziesz sekcję o nazwie `one-image-bg`. Ustaw jej wysokość, szerokość i obramowanie. Następnie wstaw do niej obraz rabbit.png za pomocą css - `background-image`, w taki sposób, aby zajmował 50% szerokości elementu rodzica.

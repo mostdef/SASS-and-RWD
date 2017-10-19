@@ -1,0 +1,18 @@
+/*zadanie 0*/
+.test-mixin:after { content: ''; display: table; clear: both; }
+
+.test-mixin .left_box, .test-mixin .right_box { width: 50%; }
+
+.test-mixin .left_box { float: left; }
+
+.test-mixin .right_box { float: right; }
+
+/* zadanie 1 - ????*/
+/* zadanie 2*/
+.success, .error, .info { padding: 5px; border: 1px solid green; border-radius: 3px; margin-bottom: 10px; background: rgba(0, 128, 0, 0.2); }
+
+.error { background: rgba(255, 0, 0, 0.2); border-color: red; }
+
+.info { background: rgba(255, 255, 0, 0.1); border-color: yellow; }
+
+/*# sourceMappingURL=main.css.map */

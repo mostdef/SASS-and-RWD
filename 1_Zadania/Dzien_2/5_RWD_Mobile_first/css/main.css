@@ -1,0 +1,21 @@
+/*zadanie 0*/
+body { background: yellow; }
+
+@media (min-width: 420px) { body { background: none; } }
+
+/*zadanie 1*/
+* { margin: 0; padding: 0; }
+
+body { margin: 10px; }
+
+.container div.sidebar, .container section { padding: 100px 0; background: #005784; text-align: center; color: #FFF; margin-bottom: 15px; }
+
+.container div.sidebar h1, .container section h1 { font-size: 30px; }
+
+@media (min-width: 600px) { .container div.sidebar, .container section { float: left; width: 30%; } }
+
+.container div.sidebar { background: #212124; }
+
+@media (min-width: 600px) { .container section { width: 70%; } }
+
+/*# sourceMappingURL=main.css.map */

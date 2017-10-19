@@ -27,4 +27,4 @@ Dodaj do swojego projektu plik .gitignore, w którym uwzględnij ignorowanie fol
 Bezpośrednio w wygenerowanym pliku **css** zmień kolor nagłówka i wprowadź dodatkową właściwość, np. margines. Sprawdź zmiany w przeglądarce. Przejdź do pliku **scss** i wprowadź dowolną zmianę inną od tej wprowadzonej w pliku **css**, np. padding. Zapisz plik i sprawdź rezultat zarówno w wynikowym pliku **css**, jak i w przeglądarce. Co się zmieniło?
 
 ### Zadanie 2. Watcher (~ 2min - 5min)
-W pliku gulp ustaw odpowienio watcher, tak, aby moniotorwał zmiany.
+W pliku gulp ustaw odpowienio watcher, tak, aby monitorwał zmiany.

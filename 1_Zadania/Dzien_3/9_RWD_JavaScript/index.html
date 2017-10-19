@@ -3,13 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>Sass - Zadania</title>
-    <link href="css/main.css">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
     <section class="mobile-section">
-
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </section>
 
+    <a href="#" class="mobile-switcher">MENU</a>
+
+    <!-- zadanie 0 -->
+    <script type="text/javascript">
+      var resize = function() {
+        console.log(window.outerWidth + 'x' + window.outerHeight);
+      }
+      var checkMedia = function() {
+        var query = window.matchMedia('(min-width: 420px)');
+        console.log(query.matches);
+
+        query.addListener(function(e) {
+          console.log(e.matches);
+        });
+      }
+      var load = function() {
+        console.log('loaded!');
+
+        window.onresize = resize;
+        checkMedia();
+      }
+      window.onload = load;
+    </script>
+
+    <!-- zadanie 1-->
+    <script type="text/javascript">
+      var body = document.body,
+          mobileSection = document.querySelector('.mobile-section');
+
+      var change = function(query) {
+        if (query.matches) {
+          body.className = 'mobile';
+          mobileSection.className = 'mobile-section';
+        } else {
+          document.body.className = '';
+          mobileSection.className = 'mobile-section active';
+        }
+      }
+
+      var checkMedia = function() {
+        var query = window.matchMedia('(max-width: 420px)');
+        change(query);
+
+        query.addListener(change);
+      }
+      
+      var mobileSwitcher = function() {
+        document.querySelector('.mobile-switcher').onclick = function(e) {
+          e.preventDefault();
+
+          if (mobileSection.className == 'mobile-section active') {
+            mobileSection.className = 'mobile-section';
+          } else {
+            mobileSection.className = 'mobile-section active';
+          }
+        };
+      }
+      var load = function() {
+        console.log('loaded!');
+
+        checkMedia();
+        mobileSwitcher();
+      }
+      window.onload = load;
+    </script>
 </body>
 </html>

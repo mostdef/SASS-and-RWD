@@ -1,0 +1,13 @@
+.test-mixin .left_box, .test-mixin .right_box { width: 50%; }
+
+.test-mixin .left_box { float: left; }
+
+.test-mixin .right_box { float: right; }
+
+.test-mixin:after { content: ''; display: table; clear: both; }
+
+header { max-width: 500px; margin: 0 auto; background: rgba(255, 0, 0, 0.2); border-top: 1px solid aqua; border-right: 1px solid #66ffff; border-left: 2px dashed #009999; border-bottom: 0; border-radius: 5px; }
+
+header a { width: 0; height: 0; border-left: 20px solid transparent; border-right: 20px solid transparent; border-top: 20px solid #f00; text-indent: -9999px; display: block; }
+
+/*# sourceMappingURL=main.css.map */

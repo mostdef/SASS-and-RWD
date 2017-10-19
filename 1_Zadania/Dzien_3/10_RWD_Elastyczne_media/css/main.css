@@ -1,0 +1,19 @@
+/*zadanie 0*/
+.images { display: flex; }
+
+.images img { width: 50%; }
+
+.images div { width: 50%; background-image: url("../images/rabbit.png"); background-size: cover; background-repeat: no-repeat; }
+
+@media (max-width: 800px) { .images { flex-direction: column; }
+  .images img, .images div { width: 100%; }
+  .images div { min-height: 500px; background-size: contain; } }
+
+/*zadanie 1*/
+.one-image { margin: 20px auto; width: 240px; height: 135px; border: 2px solid red; }
+
+.one-image img { max-width: 100%; }
+
+.one-image-bg { margin: 20px auto; width: 480px; height: 135px; border: 2px solid red; background-image: url("../images/rabbit.png"); background-size: 50% 100%; background-repeat: no-repeat; }
+
+/*# sourceMappingURL=main.css.map */

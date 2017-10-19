@@ -1,0 +1,72 @@
+/*zadanie 0*/
+$colors: red, blue, green;
+
+body {
+  background: nth($colors, 1);
+}
+header {
+  background: nth($colors, 2);
+}
+section {
+  background: nth($colors, 3);
+}
+
+$widths: (
+  main: 1000px,
+  header: 500px,
+  section: 300px
+);
+
+body {
+  width: map-get($widths, main);
+}
+header {
+  width: map-get($widths, header);
+}
+section {
+  width: map-get($widths, section);
+}
+
+
+
+/* zadanie 1*/
+$colors2: (
+  main: red,
+  header: blue,
+  section: green,
+  text: orange,
+  footer: yellow
+);
+
+body {
+  background: map-get($colors2, main);
+}
+header {
+  background: map-get($colors2, header);
+}
+section {
+  background: map-get($colors2, section);
+  p {
+    background: map-get($colors2, text);
+  }
+}
+footer {
+  background: map-get($colors2, footer);
+}
+/* zadanie 2*/
+$min-width: (
+  main: 1100px,
+  header: 600px,
+  section: 400px
+);
+$max-width: (
+  main: 1300px,
+  header: 700px,
+  section: 800px
+);
+
+$some_dimensions: join(map_values($min-width), map_values($max-width));
+
+body {
+  width: nth($some_dimensions, 3);
+}

@@ -59,7 +59,7 @@ Strukura folderu Sass
 ## RWD
 
 
-### 1. Środkowanie elementu za pomocą jednostek viewportu
+### 1. Środkowanie elementu za pomocą jendostek viewportu
 
 Dlaczego margines dolny i górny jest ustawiony na 30vh? Musimy zapenić `100%` viewportu `30 * 2 + 40` da nam 100vh
 
